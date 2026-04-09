@@ -1,0 +1,38 @@
+body {
+    background-color: lightgrey;  /*fondo gris */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+table {
+    width: 800px;
+    border: 9px solid black; /*Borde */
+    border-collapse: collapse;
+    background-color: rgb(200, 200, 200); 
+}
+
+
+td, th, tr{
+    border: 2px solid black; /*borde interno*/
+    padding: 10px;
+}
+
+/* Titulo */
+h1 {
+    color: rgb(120, 28, 28);
+}
+
+
+p {
+    color: rgb(112, 126, 173);
+}
